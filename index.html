@@ -1,0 +1,222 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>2016 Presidential Primaries</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700' rel='stylesheet' type='text/css'>
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <script src="js/mapdata.js"></script>
+    <script src="js/countymap.js"></script>
+    <script src="js/county.js"></script>
+    <script src="js/projection.js"></script>
+    <script src="js/county_facts.js"></script>
+    <script src="js/county_facts_dictionary.js"></script>
+    <script src="js/stateAbbreviations.js"></script>
+ 
+    <script src="js/usa.js"></script>
+    <script src="js/logic.js"></script>
+    <script src="js/font.js"></script>
+    <script src="js/state_county_candidate_results.js"></script>
+    <script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.2.js"></script>
+
+   
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+   
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">2016 Presidential Primaries</h1>
+                        <p class="intro-text">Created by Gaurav Keswani, Nanqing Dong and Yanran Xu.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <br/> <br/> <br/> <br/>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="about-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>"The United States presidential election of 2016 is expected to be held on Tuesday, November 8, 2016. It will be the 58th quadrennial U.S. presidential election. Voters in the election will select presidential electors who in turn will elect a new President and Vice President of the United States. The incumbent president, Barack Obama, is ineligible to be elected to a third term due to term limits in the Twenty-second Amendment to the United States Constitution. The four main candidates are Hillary Clinton, Bernie Sanders, Donald Trump and Ted Cruz"</p>
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- demo and repu Section -->
+    <section id="download" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p id="statesmap" style="width:200px; height:100px ;float: left;margin-left:-270px  "></p>
+                    <p id="statesmap2" style=" width:200px; height:100px; float: left; margin-left:400px "></p>
+                    <script src="js/stateelection.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+
+    <!-- Bar Graph Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="about-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <br/> <br/> <br/> <br/><br/> <br/> <br/> <br/>
+                    <p>Click on any of the following states and their counties to analyse the electorate and their votes: 
+                    <br/> Alabama, Arizona, Arkansas, Colorado, Florida, Georgia, Idaho, Illinois, Iowa, Kentucky, Louisiana, Maine
+                            , Massachusetts, Michigan, Mississippi, Missouri, Nebraska, Nevada, North Carolina, Ohio, Oklahoma
+                            , South Carolina, Tennessee, Texas, Utah, Vermont, Virginia, New Hampshire"</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div id="map" style="margin-left:-240"></div>
+                <div id="county" style="margin-left:-200 margin-bottom:1000"  viewBox="0 0 500 500">
+                    <script src="js/usa.js"></script>
+                    <script src="js/county.js"></script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+
+     <!-- Electorate Analysis -->
+    <section id="electorate" class="content-section text-center">
+        <div class="about-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                     <br/> <br/> <br/> <br/> <br/> <br/> <br/> <br/>
+                    <p>"Electorate Analysis on the basis of their race, education, age, poverty levels, income and business"</p>
+                </div>
+            </div>
+        </div>
+   
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <br/> <br/> 
+                    <div class="row">
+                        <div class="col-lg-10">
+
+                          <div class="btn-group" data-toggle="buttons">
+                            <label class="btn btn-default active">
+                              <input type="radio" id="radio-focus" name="focus" value="Race" autocomplete="off" checked> Race
+                            </label>
+                            <label class="btn btn-default">
+                              <input type="radio" id="radio-focus" name="focus" value="Education" autocomplete="off"> Education
+                            </label>
+                             <label class="btn btn-default">
+                              <input type="radio" id="radio-focus" name="focus" value="Age" autocomplete="off"> Age
+                            </label>
+                            <label class="btn btn-default">
+                              <input type="radio" id="radio-focus" name="focus" value="Poverty" autocomplete="off"> Poverty
+                            </label>
+                             <label class="btn btn-default">
+                              <input type="radio" id="radio-focus" name="focus" value="Income" autocomplete="off"> Income
+                            </label>
+                             <label class="btn btn-default">
+                              <input type="radio" id="radio-focus" name="focus" value="Business" autocomplete="off"> Business
+                            </label>
+                          </div>
+                        </div>
+                    </div>
+                    <br/> <br/> 
+
+                    <div id = "barchart"> </div>
+                    <script src="js/logic.js"></script>
+                     <script>
+                         $('input[type="radio"]').on('click change', function(){
+                                updateMaps();
+                         });
+                    </script>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="bargraph" class="content-section text-center">
+        <div class="about-section">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p>"Final voting numbers for democratic and republican candidates"</p>
+                </div>
+            </div>
+        </div>
+        <div class="download-section">
+            <div class="container">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div id="partybar" style="margin-left:-100"></div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+    
+    <script>
+        
+$(window).resize(function(){
+	if ($(window).width() <= 800){	
+		
+        
+        // do something here
+	}	
+});
+
+    </script>
+
+</body>
+
+</html>
