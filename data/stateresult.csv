@@ -1,0 +1,59 @@
+State,id     ,Candidate1,Votes,Fraction,Candidate2,Votes,Fraction,Candidate3,Votes,Fraction,Candidate4,Votes,Fraction,Candidate5,Votes,Fraction,Candidate6,Votes,Fraction,Candidate7,Votes,Fraction,winnerofDemocrat,winnerofRepublican
+Alabama,1,Hillary Clinton,311273,,Bernie Sanders,74987,,Ben Carson,84139,,Donald Trump,356892,,Ted Cruz,173277,,John Kasich,37127,,Marco Rubio,154379,,Hillary Clinton,Donald Trump
+Arizona,4,Hillary Clinton,235697,,Bernie Sanders,163400,,Ben Carson,,,Donald Trump,249916,,Ted Cruz,132147,,John Kasich,53040,,Marco Rubio,,,Bernie Sanders,Donald Trump
+Arkansas,5,Hillary Clinton,142688,,Bernie Sanders,64514,,Ben Carson,23105,,Donald Trump,132546,,Ted Cruz,123379,,John Kasich,15079,,Marco Rubio,100999,,Hillary Clinton,Donald Trump
+California,6,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Colorado,8,Hillary Clinton,49256,,Bernie Sanders,71928,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,Bernie Sanders,
+Connecticut,9,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Delaware,10,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Florida,12,Hillary Clinton,1064566,,Bernie Sanders,547051,,Ben Carson,,,Donald Trump,1015451,,Ted Cruz,383189,,John Kasich,150167,,Marco Rubio,607491,,Hillary Clinton,Donald Trump
+Georgia,13,Hillary Clinton,460660,,Bernie Sanders,181760,,Ben Carson,78731,,Donald Trump,490566,,Ted Cruz,298304,,John Kasich,72046,,Marco Rubio,305822,,Hillary Clinton,Donald Trump
+Hawaii,15,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Idaho,16,Hillary Clinton,5017,,Bernie Sanders,18550,,Ben Carson,,,Donald Trump,60810,,Ted Cruz,99447,,John Kasich,10945,,Marco Rubio,,,Bernie Sanders,Ted Cruz
+Illinois,17,Hillary Clinton,304632,,Bernie Sanders,354344,,Ben Carson,,,Donald Trump,350991,,Ted Cruz,304903,,John Kasich,153761,,Marco Rubio,99135,,Bernie Sanders,Donald Trump
+Indiana,18,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Iowa,19,Hillary Clinton,69581,,Bernie Sanders,69311,,Ben Carson,17173,,Donald Trump,45163,,Ted Cruz,51316,,John Kasich,3466,,Marco Rubio,42883,,Hillary Clinton,Ted Cruz
+Kansas,20,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Kentucky,21,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,82493,,Ted Cruz,72503,,John Kasich,33134,,Marco Rubio,37579,,,Donald Trump
+Louisiana,22,Hillary Clinton,194126,,Bernie Sanders,62723,,Ben Carson,,,Donald Trump,100781,,Ted Cruz,95169,,John Kasich,15996,,Marco Rubio,28071,,Hillary Clinton,Donald Trump
+Maine,23,Hillary Clinton,40,,Bernie Sanders,61,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,Bernie Sanders,
+Maryland,24,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Massachusetts,25,Hillary Clinton,25198,,Bernie Sanders,26102,,Ben Carson,877,,Donald Trump,16110,,Ted Cruz,3223,,John Kasich,5662,,Marco Rubio,5645,,,Donald Trump
+Michigan,26,Hillary Clinton,571748,,Bernie Sanders,587838,,Ben Carson,,,Donald Trump,469228,,Ted Cruz,322514,,John Kasich,314871,,Marco Rubio,121296,,Bernie Sanders,Donald Trump
+Minnesota,27,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,Bernie Sanders,
+Mississippi,28,Hillary Clinton,175221,,Bernie Sanders,34218,,Ben Carson,,,Donald Trump,180485,,Ted Cruz,134347,,John Kasich,34249,,Marco Rubio,19215,,Hillary Clinton,Donald Trump
+Missouri,29,Hillary Clinton,165624,,Bernie Sanders,184883,,Ben Carson,,,Donald Trump,291817,,Ted Cruz,293832,,John Kasich,57725,,Marco Rubio,37421,,Bernie Sanders,Ted Cruz
+Montana,30,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Nebraska,31,Hillary Clinton,14340,,Bernie Sanders,19120,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,Bernie Sanders,
+Nevada,32,Hillary Clinton,6296,,Bernie Sanders,5641,,Ben Carson,3619,,Donald Trump,34531,,Ted Cruz,16079,,John Kasich,2709,,Marco Rubio,17940,,Hillary Clinton,Donald Trump
+New Hampshire,33,Hillary Clinton,95252,,Bernie Sanders,151584,,Ben Carson,6509,,Donald Trump,100406,,Ted Cruz,33189,,John Kasich,44909,,Marco Rubio,30032,,Bernie Sanders,Donald Trump
+New Jersey,34,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+New Mexico,35,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+New York,36,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+North Carolina,37,Hillary Clinton,615603,,Bernie Sanders,459606,,Ben Carson,,,Donald Trump,455783,,Ted Cruz,417728,,John Kasich,143837,,Marco Rubio,87466,,Hillary Clinton,Donald Trump
+North Dakota,38,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Ohio,39,Hillary Clinton,679266,,Bernie Sanders,513549,,Ben Carson,,,Donald Trump,727585,,Ted Cruz,267592,,John Kasich,956762,,Marco Rubio,59802,,Hillary Clinton,John Kasich
+Oklahoma,40,Hillary Clinton,137840,,Bernie Sanders,171771,,Ben Carson,28378,,Donald Trump,129192,,Ted Cruz,156643,,John Kasich,16463,,Marco Rubio,118669,,Bernie Sanders,Ted Cruz
+Oregon,41,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Pennsylvania,42,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Rhode Island,44,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+South Carolina,45,Hillary Clinton,271514,,Bernie Sanders,95977,,Ben Carson,53326,,Donald Trump,239851,,Ted Cruz,164790,,John Kasich,56206,,Marco Rubio,165881,,Hillary Clinton,Donald Trump
+South Dakota,46,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Tennessee,47,Hillary Clinton,244663,,Bernie Sanders,120047,,Ben Carson,,,Donald Trump,333887,,Ted Cruz,215084,,John Kasich,45155,,Marco Rubio,180645,,Hillary Clinton,Donald Trump
+Texas,48,Hillary Clinton,925323,,Bernie Sanders,471191,,Ben Carson,181145,,Donald Trump,742016,,Ted Cruz,1219691,,John Kasich,118707,,Marco Rubio,495825,,Hillary Clinton,Ted Cruz
+Utah,49,Hillary Clinton,15666,,Bernie Sanders,61333,,Ben Carson,,,Donald Trump,24864,,Ted Cruz,122567,,John Kasich,29773,,Marco Rubio,,,Bernie Sanders,Ted Cruz
+Vermont,50,Hillary Clinton,1694,,Bernie Sanders,10272,,Ben Carson,275,,Donald Trump,2116,,Ted Cruz,681,,John Kasich,4222,,Marco Rubio,6785,,Bernie Sanders,Marco Rubio
+Virginia,51,Hillary Clinton,399943,,Bernie Sanders,218517,,Ben Carson,51186,,Donald Trump,311174,,Ted Cruz,151738,,John Kasich,80395,,Marco Rubio,275354,,Hillary Clinton,Donald Trump
+Washington,53,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+West Virginia,54,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Wisconsin,55,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+Wyoming,56,Hillary Clinton,,,Bernie Sanders,,,Ben Carson,,,Donald Trump,,,Ted Cruz,,,John Kasich,,,Marco Rubio,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,

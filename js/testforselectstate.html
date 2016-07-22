@@ -1,0 +1,27 @@
+<html>
+<head>
+<!-- Load the d3 library. -->
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<style>
+body { font-family: "Open Sans"; fill: grey; font-size: 10px }
+svg { margin: 10px; }
+rect.bar { fill: pink; 
+           stroke: white}
+
+.axis path, .axis line {
+  fill: none;
+  stroke: grey;
+}
+</style>
+</head>
+
+
+var height = 300;
+var width = 300;
+
+var svg= d3.select("#stateelection").append("svg").attr("height", height).attr("width", width);
+
+svg.append("text").text("ssss").attr("fill","red");
+
+</html>
